@@ -106,16 +106,22 @@ body{
 grid-column: 3/4;
 grid-row:3/4;
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
 align-items: center;
+padding:30px;
 justify-content: space-evenly;
+}
+
+.featured:nth-of-type(odd){
+
+    width:100px;
+
+        display: block;
 }
 
 .awards-block img{
    
-    width:150px;
-margin:10px;
-    display: block;
+  width:100px;
 }
 
 .featured-block{
@@ -177,5 +183,11 @@ margin-left: 10px;
 .info-link{
     margin-left:5px;
     font-size:1.6rem; 
+    border-bottom: 2px solid transparent;
+    transition:all ease .5s;
+}
+
+.info-link:hover{
+    border-bottom: 2px solid #4BDB7C;
 }
 
