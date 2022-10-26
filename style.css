@@ -135,6 +135,16 @@ justify-content: space-evenly;
 }
 
 
+.subheading{
+    background-color: transparent;
+    transition: all ease 0.5s;
+}
+
+.subheading:hover{
+  background-color: #4BDB7C;
+  color:#11110E;
+}
+
 .services .subheading::before{
     content:'⚹ ';
     margin-right:10px;
@@ -143,8 +153,8 @@ justify-content: space-evenly;
 }
 
 .services .subheading:hover::before{
-color:white;
 margin-left: 10px;
+color:#11110E;
 }
 
 @media only screen and (max-width: 700px){
