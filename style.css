@@ -112,15 +112,9 @@ padding:30px;
 justify-content: space-evenly;
 }
 
-.featured:nth-of-type(odd){
 
-    width:100px;
 
-        display: block;
-}
-
-.awards-block img{
-   
+.awards-block img{ 
   width:100px;
 }
 
